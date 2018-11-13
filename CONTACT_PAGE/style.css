@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #ededed;
+}
+
+.container {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    margin: 0px auto;
+}
+
+main {
+    background-color: #033d49;
+}
+
+form {
+    margin: 10px auto;
+}
+
+label {
+    color: #f2bd4c;
+    display: block;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+input {
+    height: 35px;
+}
+
+input,
+textarea {
+    width: 300px;
+    border: solid thin #ddd;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+}
+
+.swal-text {
+    text-align: center !important;
+    color: blue !important;
+}
+
+.pic {
+    background-image: url(./phone-612061_960_720.jpg);
+    background-size: cover;
+    width: 36%;
+    margin: 0px auto;
+}
+
+footer {
+    float: right;
+}

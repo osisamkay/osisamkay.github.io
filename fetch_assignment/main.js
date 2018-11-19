@@ -5,7 +5,7 @@ clickButton.addEventListener('click', function(event) {
     event.preventDefault();
 
     // fetch api
-    let api = 'http://api.giphy.com/v1/gifs/search?';
+    let api = 'https://api.giphy.com/v1/gifs/search?';
     let apikey = '&api_key=OB060zxrMKSeSARlNX33j6ohNTm3DUED&limit=3'
     let query = `q=${content.value}`;
     const newapi = api + query + apikey;

@@ -27,8 +27,8 @@ clickButton.addEventListener('click', function(event) {
             throw new Error(response.status);
         }
 
-        loadJson('no-such-user.json')
-            .catch(alert); // Error: 404 (4)
+//         loadJson('no-such-user.json')
+//             .catch(alert); // Error: 404 (4)
 
     }
 //     refresh function

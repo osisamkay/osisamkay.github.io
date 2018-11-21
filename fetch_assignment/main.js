@@ -3,7 +3,7 @@ const content = document.getElementById('search');
 let newContent = content.value;
 clickButton.addEventListener('click', function(event) {
     event.preventDefault();
-
+    removeall();
     // fetch api
     let api = 'https://api.giphy.com/v1/gifs/search?';
     let apikey = '&api_key=OB060zxrMKSeSARlNX33j6ohNTm3DUED&limit=3'
@@ -31,6 +31,11 @@ clickButton.addEventListener('click', function(event) {
             .catch(alert); // Error: 404 (4)
 
     }
+//     refresh function
+    function removeall() {
+        const remove = document.getElementById('imagesection');
+        remove.innerHTML = " ";
+    };
     getgiphy();
 
 })

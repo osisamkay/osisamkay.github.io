@@ -1,0 +1,14 @@
+.container{
+    margin: 120px auto;
+    width: 900px;
+    .grid{
+        display:flex;
+        .col {
+            margin:0px auto;
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}

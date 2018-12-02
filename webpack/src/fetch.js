@@ -1,5 +1,5 @@
 (function(){
-  const host = 'http://api.giphy.com/v1';
+  const host = 'https://api.giphy.com/v1';
   const apiKey = 'OB060zxrMKSeSARlNX33j6ohNTm3DUED&limit=12';
   const form = document.getElementById('form');
   const input = document.getElementById('searchInput');

@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 86px;
+    padding: 41px;
+    color: dodgerblue;
+}
+
+.todo {
+    width: 694px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #003b45;
+    border-radius: 10%;
+}
+
+input[type='search'] {
+    width: 50%;
+    height: 5%;
+    margin-bottom: 3%;
+}
+
+input[type="button"] {
+    background-color: #06575b;
+    border: none;
+    border-radius: 20px;
+    color: #c3dee5;
+    height: 8%;
+    width: 20%;
+}
+
+ol {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+li {
+    height: 9%;
+    font-size: 142%;
+    line-height: 72px;
+    text-align: left;
+    padding-left: 13px;
+    border-bottom: 2px dashed black;
+    background-color: #c3dee5;
+}
+
+li span {
+    float: right;
+    padding: 0px 15px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+li:nth-child(even) {
+    background-color: #66a4ac;
+}

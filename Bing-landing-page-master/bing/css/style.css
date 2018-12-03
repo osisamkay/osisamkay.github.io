@@ -6,6 +6,7 @@
 body {
     background-image: url(../image/nature-3181144_1920.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -37,7 +38,7 @@ nav ul li a:hover {
 nav span {
     display: flex;
     position: relative;
-    left: 793px;
+    left: 723px;
     background-color: transparent;
 }
 
@@ -95,7 +96,6 @@ input[type="search"] {
 .info-fas {
     font-size: small;
     font-weight: 12px;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
     color: white;
     background-color: rgba(34, 34, 34, .75);
     width: 40px;
@@ -144,7 +144,7 @@ footer ul li {
 
 footer span {
     position: relative;
-    left: 954px;
+    left: 868px;
     line-height: 35px;
     color: #54665d;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

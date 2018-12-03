@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../image/nature-3181144_1920.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 70px;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e7e2d8;
+    font-size: 13px;
+    line-height: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    color: #fefcd7;
+}
+
+nav span {
+    display: flex;
+    position: relative;
+    left: 793px;
+    background-color: transparent;
+}
+
+nav span p {
+    font-size: 13px;
+    color: #ececec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 39px;
+}
+
+nav span .user {
+    color: #ececec;
+    font-size: 32px;
+    padding: 0 12px;
+    line-height: 39px;
+}
+
+nav span .bars {
+    color: #ececec;
+    font-size: 20px;
+    margin: 0 42px 14px 10px;
+    line-height: 39px;
+}
+
+.search {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.search img {
+    margin-right: 21px;
+    width: 132px;
+    height: 52px;
+    position: relative;
+    top: 21px;
+}
+
+input[type="search"] {
+    width: 627px;
+    height: 53px;
+}
+
+.search i {
+    position: relative;
+    right: 34px;
+    bottom: -3px;
+    color: #007daa;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.info-fas {
+    font-size: small;
+    font-weight: 12px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; */
+    color: white;
+    background-color: rgba(34, 34, 34, .75);
+    width: 40px;
+    height: 40px;
+    line-height: 3.25 !important;
+    text-align: center;
+}
+
+.fa-map-marker-alt {
+    width: 80px;
+    height: 40px;
+}
+
+.info i span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 13px !important;
+    float: right;
+    padding-right: 14px;
+}
+
+.info {
+    position: absolute;
+    bottom: 55px;
+    right: 88px;
+}
+
+footer {
+    display: flex;
+    background-color: #333333;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer ul {
+    display: flex;
+    margin-left: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    padding-left: 30px;
+    height: 30px;
+}
+
+footer span {
+    position: relative;
+    left: 954px;
+    line-height: 35px;
+    color: #54665d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #54665d;
+    font-size: 13px;
+    line-height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

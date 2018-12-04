@@ -51,8 +51,8 @@ li {
 
 li span {
     float: right;
-    padding: 0px 15px;
-    border-radius: 100%;
+    /* padding: 0px 15px; */
+    /* border-radius: 100%; */
     cursor: pointer;
 }
 

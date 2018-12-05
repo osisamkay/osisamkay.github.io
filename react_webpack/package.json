@@ -2,7 +2,7 @@
   "name": "react_webpack",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://osisamkay.github.io/react_webpack/",
+  "homepage": "osisamkay.github.io/react_webpack/dist/index.html",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server",

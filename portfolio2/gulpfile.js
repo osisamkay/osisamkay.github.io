@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync').create();
+const { urlLoader } = require('gulp-url-loader')
 
 const $ = gulpLoadPlugins();
 
@@ -24,7 +25,7 @@ gulp.task('styles', () => {
   gulp.src(paths.source.styles)
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
-    .pipe($.sass({outputStyle: 'compressed'}).on('error', $.sass.logError))
+    .pipe($.sass({outputStyle: 'expanded'}).on('error', $.sass.logError))
     .pipe($.concat('app.css'))
     .pipe($.autoprefixer({browsers: ['last 2 versions', '> 1%', 'Firefox ESR']}))
     .pipe($.cssnano())
@@ -44,6 +45,13 @@ gulp.task('scripts', () => {
     .pipe(gulp.dest(paths.target.scripts))
     .pipe(browserSync.stream())
 });
+
+gulp.task("default", () =>
+  gulp
+    .src("src/**/*")
+    .pipe(urlLoader())
+    .pipe(gulp.dest("dist"))
+);
 
 gulp.task('serve', () => {
   browserSync.init({ server: { baseDir: './' } });

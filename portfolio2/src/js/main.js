@@ -6,4 +6,9 @@
     nav.classList.toggle('mobile');
   })
 
+  const Year = document.querySelector('#date');
+  const date = new Date().getFullYear();
+  Year.textContent = date;
+
+
 }());

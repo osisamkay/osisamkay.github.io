@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
-
-*{
+* {
     font-family: 'Abel', sans-serif;
 }
+
 .mobile img {
     width: 150px;
     padding: 10px
@@ -101,7 +101,6 @@
         transform: scale3d(10, 10, 10);
         opacity: 0
     }
-
     to {
         transform: none;
         opacity: 1
@@ -184,7 +183,8 @@
 
 .about .about-para p {
     text-align: justify;
-    display: block
+    display: block;
+    font-weight: 800;
 }
 
 .about .about-para ul {
@@ -213,11 +213,9 @@
         grid-template-columns: 1fr 2fr;
         grid-gap: 20px
     }
-
     .about .container .cont_pics {
         width: 100%
     }
-
     .about .container ul {
         display: grid;
         grid-template-columns: repeat(7, auto)
@@ -251,11 +249,12 @@
     .portfolio {
         width: 80%
     }
-
     .portfolio .port-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px
+        grid-gap: 15px;
+        width: 768px;
+        margin: 0px auto;
     }
 }
 
@@ -326,4 +325,21 @@ html {
 
 body {
     margin: 0
+}
+
+@media (min-width:768px) {
+    .content h1 {
+        font-size: 50px;
+    }
+    #fullpage section:first-child .content h3 {
+        padding: 15px;
+        font-size: 29px;
+    }
+}
+
+@media (min-width:1024px) {
+    .contact-info {
+        width: 627px;
+        margin: 0px auto;
+    }
 }

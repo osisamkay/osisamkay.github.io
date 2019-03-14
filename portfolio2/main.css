@@ -160,7 +160,8 @@
 .about .img {
     width: 287px;
     border-radius: 50%;
-    height: 284px
+    height: 284px;
+    object-fit: cover;
 }
 
 .about .cont_pics {

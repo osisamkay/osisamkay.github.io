@@ -265,11 +265,16 @@ body {
   }
   .portfolio .port-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     max-width: 1200px;
     width: 100%;
     margin: 0px auto;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio .port-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
